@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+## Pokemon Card App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a web-based application built using ReactJS that allows users to view a list of available Pokémon, explore detailed statistics for each Pokémon, check their moves, and even capture Pokémon of their choice. The application consists of four main pages: Home, All Pokémon List, Pokémon Details, and My Pokémon Collection.
 
-## Available Scripts
+### Installation
+To run the Pokemon Card app locally on your machine, follow these steps:
 
-In the project directory, you can run:
+- Make sure you have Node.js installed on your computer. You can download it from https://nodejs.org.
 
-### `npm start`
+- Clone the GitHub repository by running the following command in your terminal:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+bash
+ ```sh
+git clone https://github.com/kibare/Pokemon-Card.git
+ ```
+Navigate to the project directory:
+ ```sh
+cd pokemon-card
+ ```
+Install the dependencies by running the following command:
+ ```sh
+npm install
+ ```
+Once the dependencies are installed, start the development server:
+ ```sh
+npm run start
+ ```
+Open your web browser and visit http://localhost:3000 to access the Pokemon Card app.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Usage
+The Pokemon Card app provides the following pages:
 
-### `npm test`
+### Home
+The Home page is the landing page of the application and provides an overview of the list of pokemons.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Pokemon List
+The All Pokémon List page displays a comprehensive list of all the Pokémon available. Users can browse through the list, search for specific Pokémon, and click on a Pokémon to view its detailed information.
 
-### `npm run build`
+### Pokémon Details
+The Pokémon Details page provides in-depth information about a selected Pokémon. Users can view the Pokémon's statistics, abilities, moves, and more. They can also choose to capture the Pokémon and add it to their collection.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Owned Pokemon
+The My Pokémon Collection page showcases the Pokémon that the user has captured. Users can manage their collection, view captured Pokémon details, and release Pokémon if desired.
