@@ -31,13 +31,17 @@ Open your web browser and visit http://localhost:3000 to access the Pokemon Card
 The Pokemon Card app provides the following pages:
 
 ### Home
+![Home](https://github.com/kibare/Pokemon-Card/assets/88304248/457ea1a0-6cec-43fe-875a-e1101e989da8)
 The Home page is the landing page of the application and provides an overview of the list of pokemons.
 
 ### Pokemon List
+![List](https://github.com/kibare/Pokemon-Card/assets/88304248/108c771e-a22b-4b04-8d33-e3293fd00f40)
 The All Pokémon List page displays a comprehensive list of all the Pokémon available. Users can browse through the list, search for specific Pokémon, and click on a Pokémon to view its detailed information.
 
 ### Pokémon Details
+![Detail](https://github.com/kibare/Pokemon-Card/assets/88304248/c27f4953-6307-47f5-ac62-3b87c2722e8e)
 The Pokémon Details page provides in-depth information about a selected Pokémon. Users can view the Pokémon's statistics, abilities, moves, and more. They can also choose to capture the Pokémon and add it to their collection.
 
 ### Owned Pokemon
+![Owned](https://github.com/kibare/Pokemon-Card/assets/88304248/f0685090-01b1-4989-84c5-e0bc5591e44b)
 The My Pokémon Collection page showcases the Pokémon that the user has captured. Users can manage their collection, view captured Pokémon details, and release Pokémon if desired.
